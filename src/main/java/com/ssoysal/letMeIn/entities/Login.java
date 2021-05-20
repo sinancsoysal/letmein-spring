@@ -15,20 +15,20 @@ public class Login {
 		
 		@Column(name="url")
 		@ColumnTransformer(
-		        read = "cast(aes_decrypt(url, UNHEX('F3229A0B369ED2D9441B830D69A390C3')) as char(255))", 
-		        write = "aes_encrypt(?, UNHEX('F3229A0B369ED2D9441B830D69A390C3'))")
+		        read = "cast(aes_decrypt(url, UNHEX('/* use strong keys */')) as char(255))", 
+		        write = "aes_encrypt(?, UNHEX('/* use strong keys */'))")
 		private String url;
 		
 		@Column(name="mail")
 		@ColumnTransformer(
-		        read = "cast(aes_decrypt(mail, UNHEX('F3229A0B369ED2D6941B830D21A390C3')) as char(255))", 
-		        write = "aes_encrypt(?, UNHEX('F3229A0B369ED2D6941B830D21A390C3'))")
+		        read = "cast(aes_decrypt(mail, UNHEX('/* use strong keys */')) as char(255))", 
+		        write = "aes_encrypt(?, UNHEX('/* use strong keys */'))")
 		private String mail;
 		
 		@Column(name="pass")
 		@ColumnTransformer(
-		        read = "cast(aes_decrypt(pass, UNHEX('F3229A0B369ED2D9441B830D21A390C3')) as char(255))", 
-		        write = "aes_encrypt(?, UNHEX('F3229A0B369ED2D9441B830D21A390C3'))")
+		        read = "cast(aes_decrypt(pass, UNHEX('/* use strong keys */')) as char(255))", 
+		        write = "aes_encrypt(?, UNHEX('/* use strong keys */'))")
 		private String pass;
 
 		public Login() {}
