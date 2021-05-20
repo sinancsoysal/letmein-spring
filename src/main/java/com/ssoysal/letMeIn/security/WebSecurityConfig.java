@@ -17,12 +17,12 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 	protected void configure(AuthenticationManagerBuilder auth) throws Exception {
 	    auth.inMemoryAuthentication()
         .passwordEncoder(new BCryptPasswordEncoder())
-            .withUser("nani")
-            .password("$2a$10$SzIY3CCIwDa10iklU.bx8e3e.Vu18GoEh8yjTLcyZ2SDbxbx3FeUO")
+            .withUser("user")
+            .password("/* use strong passwords */")
             .roles("USER")
         .and()
-            .withUser("greatnani")
-            .password("$2a$10$vHnI4IsfPA6UASQWYPBnAOu.rg6ZAm.HEfdJip19HG.HYuDqyR8pW")
+            .withUser("amdin")
+            .password("/* use strong passwords */")
             .roles("ADMIN")
         ;
 	}
