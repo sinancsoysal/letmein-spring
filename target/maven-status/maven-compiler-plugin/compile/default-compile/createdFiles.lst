@@ -1,0 +1,8 @@
+com/ssoysal/letMeIn/entities/Login.class
+com/ssoysal/letMeIn/LetMeInApplication.class
+com/ssoysal/letMeIn/service/LoginManager.class
+com/ssoysal/letMeIn/security/WebSecurityConfig.class
+com/ssoysal/letMeIn/dataAccess/ILoginDal.class
+com/ssoysal/letMeIn/restApi/LoginController.class
+com/ssoysal/letMeIn/dataAccess/HibernateLoginDal.class
+com/ssoysal/letMeIn/service/ILoginService.class

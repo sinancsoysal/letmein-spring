@@ -1,0 +1,8 @@
+/home/ssoysal/Documents/letmein/backend/letMeIn/src/main/java/com/ssoysal/letMeIn/security/WebSecurityConfig.java
+/home/ssoysal/Documents/letmein/backend/letMeIn/src/main/java/com/ssoysal/letMeIn/entities/Login.java
+/home/ssoysal/Documents/letmein/backend/letMeIn/src/main/java/com/ssoysal/letMeIn/restApi/LoginController.java
+/home/ssoysal/Documents/letmein/backend/letMeIn/src/main/java/com/ssoysal/letMeIn/LetMeInApplication.java
+/home/ssoysal/Documents/letmein/backend/letMeIn/src/main/java/com/ssoysal/letMeIn/dataAccess/ILoginDal.java
+/home/ssoysal/Documents/letmein/backend/letMeIn/src/main/java/com/ssoysal/letMeIn/dataAccess/HibernateLoginDal.java
+/home/ssoysal/Documents/letmein/backend/letMeIn/src/main/java/com/ssoysal/letMeIn/service/LoginManager.java
+/home/ssoysal/Documents/letmein/backend/letMeIn/src/main/java/com/ssoysal/letMeIn/service/ILoginService.java
